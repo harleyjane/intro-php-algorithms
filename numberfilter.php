@@ -8,10 +8,31 @@ All of your code should go inside this function's { and } braces. -->
 
 <?php 
 
-function numberFilterer(listOfNums){
+function numberFilterer(){
+    // $our_numbers = array('30, 5, 9, 10, 11' => );
+    
+    // there is a starting list
+    $our_numbers = array(30, 5, 9, 10, 11);
+    // filter out numbers that are 10 or greater
+        // move through the list
+        for ($x = 0; $x <= count($our_numbers); $x++) {
+            // evaluate if each number is < 10
+        if ($x = <=10);{
+            $newArray[$key]= $value;
+        else ($x = >10);      
+    unset($array[$key]);
+        // php - conditionals
+            $our_numbers[$x]
+            // if the number is less than 10, collect it in a new list/array
+            // think about where this empty array should be defined
+        } 
+        
+    // return the new list
     return ();
 }
 
+}
+// change the function so that the value of the array is not hard coded within the function, but passed into the function as an argument.
 ?>
 
 <!-- Below, you'll find the code that checks for correctness of your work.
